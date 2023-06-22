@@ -1,0 +1,12 @@
+#top-product {
+  margin: 10rem 0rem;
+}
+#top-product > p {
+  margin-bottom: 2rem;
+  font-size: 25px;
+  font-weight: bold;
+}
+#card-container {
+  display: flex;
+  justify-content: space-between;
+}

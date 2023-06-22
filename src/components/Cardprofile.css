@@ -1,0 +1,56 @@
+.card-profile {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8rem 1rem;
+  /* padding: 1rem; */
+}
+.profile {
+  margin-bottom: 1rem;
+  display: flex;
+
+  /* margin-left: 10px; */
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.profile p {
+  color: black;
+}
+.profile > p {
+  margin-top: 4px;
+  margin-left: 12px;
+  font-weight: bold;
+}
+.profile-tag {
+  margin-top: 4px;
+  font-size: 10px;
+  font-weight: lighter;
+}
+.subscribing {
+  display: flex;
+  justify-content: space-between;
+}
+.subscribing p {
+  color: black;
+}
+.subscribing > p {
+  font-size: 11px;
+  font-weight: lighter;
+}
+.subscribing button {
+  padding: 0 13.4px;
+  margin: 0;
+  color: white;
+  border: 0;
+  background-color: black;
+}
+.middle-sub {
+  /* margin-left: 5px; */
+  margin-right: 5px;
+}
+.sub-text {
+  font-size: 13px;
+  font-weight: bold;
+}

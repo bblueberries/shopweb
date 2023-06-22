@@ -1,0 +1,78 @@
+#l-np {
+  margin-right: 10rem;
+}
+#l-np > p {
+  font-size: 18px;
+  margin: 2rem 0;
+  padding: 0;
+}
+#l-np > h1 {
+  font-size: 45px;
+}
+#lb-np {
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-content: center; */
+}
+.button-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+#btcon1 {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.button-container .l-bt,
+.r-bt {
+  font-weight: bold;
+  font-size: 13px;
+  flex-grow: 1;
+  /* padding: 20px; */
+}
+#btcon1 .l-bt {
+  margin-right: 1rem;
+  padding: 1rem 0;
+  background-color: rgb(11, 242, 242);
+  border: 0px;
+  color: black;
+}
+#btcon1 .r-bt {
+  padding: 0;
+  border: 2px solid rgb(11, 242, 242);
+  color: rgb(11, 242, 242);
+}
+
+#amount-container {
+  margin-top: 5rem;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+#amount-container .numbox {
+  height: 70px;
+  /* padding: 0px; */
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#amount-container .numbox {
+  font-size: 23px;
+}
+
+#amount-container .numbox .num-detail {
+  font-size: 10px;
+  color: white;
+}
+#l-box,
+#m-box {
+  border-right: 2px solid rgb(255, 255, 255);
+}
+
+#m-box,
+#l-box {
+  padding-right: 45px;
+}

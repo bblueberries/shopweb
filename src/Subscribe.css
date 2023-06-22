@@ -1,0 +1,42 @@
+#join-us {
+  display: flex;
+  justify-content: center;
+}
+.ju-container {
+  display: flex;
+  align-items: center;
+}
+.ju-container img {
+  margin-right: 6rem;
+  width: 350px;
+}
+#ju-text p {
+  font-size: 25px;
+  font-weight: bold;
+}
+#subscribebox {
+  margin-top: 2rem;
+  background-color: rgb(12, 12, 12);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 75%;
+}
+
+#subscribebox button {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: rgb(11, 242, 242);
+  border: none;
+  padding: 7px 10px;
+}
+
+#subscribebox input {
+  width: 70%;
+  color: rgb(116, 116, 116);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 3px;
+}

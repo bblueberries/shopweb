@@ -1,0 +1,27 @@
+.card {
+  width: 23%;
+  /* height: 260px; */
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  height: 100px;
+}
+.middle-card {
+  background-color: transparent;
+}
+.bottom-card {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.bottom-card img {
+  width: 65px;
+  height: 65px;
+}
